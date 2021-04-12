@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.navigation-wrapper {
+  height: 190px; 
+  background-color: #3b5633;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 100px;
+}
+.header-styles {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1em;
+}
+
+
+.header-wrapper {
+    display: flex;
+    background-color: #1F1E1E;
+    color: white;
+    padding: 40px 40px 40px 20%;
+}
+
+  
+.nav-bar {
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+   background-color: #1F1E1E;
+   color: white;
+   
+}
+
+.about-me-paragraph {
+    padding-bottom: 40px;
+}
+.about-me-paragraph :nth-child(1) {
+    font-size: 36px;
+  }  
+.about-me-paragraph :nth-child(2) {
+    font-size: 96px;
+    font-weight: 600;
+ 
+ }
+.about-me-paragraph :nth-child(3) {
+    font-size: 24px;
+    width: 350px;
+ 
+ } 
+.center-column .logo {
+   display: flex;
+   justify-content: center;
+}
+
+.logo img {
+   width: 216px;
+   height: 100%;
+
+}
+
+.features-section {
+    height: 500px;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.nav-link a {
+   font-family: 'Ubuntu Condensed', sans-serif;
+   color: #fff;
+   text-decoration: none;
+   transition: 0.5s;
+}
+
+.nav-link a:hover {
+   color: #bcca99;
+   letter-spacing: 2px;
+}
+
+.columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 1px1s;
+}
+
+.column:hover {
+    border-bottom: 5px solid #ffffff;
+}
+
+.column :nth-child(1) {
+  font-size: 38px;
+  font-weight: 900;
+}
+
+.column :nth-child(2) {
+   font-size: 18px;
+   font-weight: 400;
+   height: 50px;
+}
+
+
+.column :nth-child(3) {
+    letter-spacing: 2px;
+}
+
+.project-wrapper-align-left {
+    background-color: #1F1E1E;
+    padding: 40px 40px 40px 20%;
+    display: flex;
+    color: white;
+
+}
+
+.testimonial {
+    padding: 20px;
+}
+
+.testimonial :nth-child(1) {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.project-wrapper-align-right {
+    display: flex;
+}
